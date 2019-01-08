@@ -160,7 +160,7 @@ void TableDelete(MappingTable* ht, KeyType key)
     unsigned int base = 0;
 
     //start from 0 to the end, to search the whole table
-    int ret=MappingTableFindCur(ht,key,&base);
+    int ret=MappingTableFindBase(ht,key,&base);
 
     if (ret == 0) //return 0
         return;
