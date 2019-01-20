@@ -77,7 +77,7 @@ int main()
 
     ps7_post_config();
 
-    const int iter_time = 100;
+    const int iter_time = 1024;
 
     unsigned long array[iter_time];
 
