@@ -16,6 +16,7 @@ typedef unsigned int ValueType;
 #define XPAR_PS7_DDR_0_S_AXI_HIGHADDR 0x1FFFFFFF
 #define XPAR_PS7_DDR_0_S_AXI_BASEADDR 0x00100000
 
+//convert function: X-bits to Y-bits
 unsigned int mapping(const unsigned long virtual_address);
 
 //using this structure to express the status for each element
@@ -47,8 +48,7 @@ void Print(MappingTable* ht);
 //API: initialize the table
 void MappingTableInit(MappingTable* ht);
 
-//convert function: X-bits to Y-bits
-unsigned int ConvertFunction(KeyType key);
+//unsigned int ConvertFunction(KeyType key);
 
 //API: insert/write key-value into the table
 int MappingTableInsert(MappingTable* ht, KeyType key);
