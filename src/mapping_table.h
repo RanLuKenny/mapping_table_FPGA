@@ -48,7 +48,7 @@ void Print(MappingTable* ht);
 //API: initialize the table
 void MappingTableInit(MappingTable* ht);
 
-//unsigned int ConvertFunction(KeyType key);
+unsigned int ConvertFunction(KeyType key);
 
 //API: insert/write key-value into the table
 int MappingTableInsert(MappingTable* ht, KeyType key);
