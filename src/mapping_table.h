@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*KeyValue(X-bits), here using 32 bits int*/
+/*KeyValue(X-bits), here using long*/
 /*ValurType here is int*/
 typedef unsigned long KeyType; 
 typedef unsigned int ValueType;
