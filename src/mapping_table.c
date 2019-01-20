@@ -18,11 +18,11 @@ unsigned int mapping(const unsigned long virtual_address){
 	
 }
 
-unsigned int ConvertFunction(KeyType key)
-{
-    return key % TableSize; //next time, use MMU method to do this
-    //range 0 to (TableSize - 1)
-}
+// unsigned int ConvertFunction(KeyType key)
+// {
+//     return key % TableSize; //next time, use MMU method to do this
+//     //range 0 to (TableSize - 1)
+// }
 
 ////////////////////////////////////////////////////////////////////////////////////
 void MappingTableInit(MappingTable* ht)
