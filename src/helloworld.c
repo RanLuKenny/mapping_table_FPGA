@@ -129,7 +129,7 @@ int main()
     	xil_printf("value: 0x%x\n", Xil_In32(addr_temp));
     }
 
-    xil_printf("\nsize: %d\n", sizeof(unsigned long));
+    //xil_printf("\nsize: %d\n", sizeof(unsigned long));
     cleanup_platform();
     return 0;
 }
